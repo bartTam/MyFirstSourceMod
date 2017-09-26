@@ -2557,7 +2557,7 @@ inline HRESULT CreatePhraseFromWordArray(const WCHAR ** ppWords, ULONG cWords,
         ::CoTaskMemFree(pStringPtrArray);
         return E_OUTOFMEMORY;
     }
-    SPPHONEID* pphoneId = (SPPHONE*)((WCHAR *)dsPhoneId);
+    SPPHONEID* pphoneId = (SPPHONEID*)((WCHAR *)dsPhoneId);
 
     SPPHRASE Phrase;
     memset(&Phrase, 0, sizeof(Phrase));
